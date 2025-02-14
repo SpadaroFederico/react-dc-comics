@@ -1,5 +1,7 @@
 export default function Main (){
     return (
-        <h1>TEST Main</h1>
+        <div className="container-black">
+            <h1>&#8594;CONTENT GOES HERE&#8592;</h1>
+        </div>
     );
 }

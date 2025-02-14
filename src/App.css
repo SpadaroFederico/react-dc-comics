@@ -67,3 +67,7 @@ header nav a::after {
 header nav a:hover::after {
   transform: scaleX(1);
 }
+
+Main {
+  background-color: black;
+}
