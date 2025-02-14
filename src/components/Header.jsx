@@ -1,5 +1,9 @@
-export default function Header (){
+import logo from '../assets/img/dc-logo.png';
+const Header = () => {
     return (
-        <h1>TEST HEADER</h1>
+      <header>
+        <img src={logo} alt="Logo"/>
+      </header>
     );
-}
+  };
+  

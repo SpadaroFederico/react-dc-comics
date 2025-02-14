@@ -4,3 +4,20 @@
   padding: 0;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: white; /* O il colore che preferisci */
+  z-index: 1000; /* Assicura che stia sopra gli altri elementi */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opzionale: aggiunge un'ombra */
+}
+
+header .container{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
