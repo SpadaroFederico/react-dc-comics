@@ -8,7 +8,8 @@ import PERISCOPE from '../assets/img/footer-periscope.png';
 export default function Footer (){
     return (
         <footer>
-            <div className="list1">
+            <div className="lists">
+                <div className="list1">
                 <ul>
                     <li className="list-title"><span >DC COMICS</span></li>
                     <li><a href="">Characters</a></li>
@@ -51,6 +52,8 @@ export default function Footer (){
                         <li><a href="#">DC Power Visa</a></li>
                     </ul>
                 </div>
+            </div>
+            
 
             <img className="logoBG" src={logoBG} alt="logoBG" />
 

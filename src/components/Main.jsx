@@ -3,13 +3,14 @@ import merchandise from '../assets/img/buy-comics-merchandise.png';
 import locater from '../assets/img/buy-comics-shop-locator.png';
 import subscriptions from '../assets/img/buy-comics-subscriptions.png';
 import visa from '../assets/img/buy-dc-power-visa.svg';
+import CardsList from './cards/cardsList.jsx'
 
 
 export default function Main (){
     return (
         <main>
             <div className="container-black">
-                <h2>&#8594; Content goes here &#8592;</h2>
+                <CardsList />
             </div>
 
             <div className="container-blue">
