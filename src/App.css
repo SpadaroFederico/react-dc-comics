@@ -163,8 +163,58 @@ footer ul a{
   z-index: 0;
 }
 
+footer .container-gray{
+  position: absolute;
+    top: 390px;
+    height: 125px;
+    width: 100%;
+    background-color: #303030;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 230px;
+    color: white;
+    gap: 30px;
+    z-index: 1;
+}
 
+.button-container .sign-up{
+  padding: 10px;
+  background-color: #303030;
+  border: solid 3px #0C7CEC;
+  border-radius: 0;
+  font-size: 18;
+  color: white;
+  font-weight: bold;
+}
 
+.button-container .sign-up:hover{
+  background-color: rgba(128, 128, 128, 0.121);
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  padding-right: 80px;
+  gap: 10px; 
+}
+
+.icons-container h3 {
+  margin-right: 20px; 
+  color: #0C7CEC;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.icons-container .ICONS {
+  margin-right: 10px;
+}
+
+.icons-container .ICONS:hover {
+  background-color: #0C7CEC;
+  border-radius: 20px;
+}
 
 
 

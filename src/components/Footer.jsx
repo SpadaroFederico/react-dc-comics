@@ -1,4 +1,9 @@
 import logoBG from '../assets/img/dc-logo-bg.png';
+import FACEBOOK from '../assets/img/footer-facebook.png';
+import TWITTER from '../assets/img/footer-twitter.png';
+import YOUTUBE from '../assets/img/footer-youtube.png';
+import PINTEREST from '../assets/img/footer-pinterest.png';
+import PERISCOPE from '../assets/img/footer-periscope.png';
 
 export default function Footer (){
     return (
@@ -47,9 +52,22 @@ export default function Footer (){
                     </ul>
                 </div>
 
-                    <img className="logoBG" src={logoBG} alt="logoBG" />
-                    
+            <img className="logoBG" src={logoBG} alt="logoBG" />
 
+            <div className="container-gray">
+                <div className="button-container">
+                    <button className='sign-up'>SIGN-UP NOW !</button>
+                </div>
+
+                <div className="icons-container">
+                    <h3>FOLLOW US</h3>
+                    <a href=""><img className="ICONS" src={FACEBOOK} alt="FACEBOOK" /></a>
+                    <a href=""><img className="ICONS" src={TWITTER} alt="logoBG" /></a>
+                    <a href=""><img className="ICONS" src={YOUTUBE} alt="YOUTUBE" /></a>
+                    <a href=""><img className="ICONS" src={PINTEREST} alt="PINTEREST" /></a>
+                    <a href=""><img className="ICONS" src={PERISCOPE} alt="PERISCOPE" /></a>
+                </div>
+            </div>
         </footer>
     );
 }
