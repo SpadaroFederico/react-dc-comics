@@ -32,10 +32,6 @@ export default function Main (){
                     <span>DC POWER VISA</span>
                 </a>
             </div>
-
-            <div className="container-jumbotron">
-                
-            </div>
         </main>
     );
 }
