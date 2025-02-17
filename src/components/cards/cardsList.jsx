@@ -1,4 +1,4 @@
-import singleCard from './singleCard.jsx'
+import SingleCard from './singleCard.jsx'
 
 export default function cardsList (){
 
@@ -63,7 +63,7 @@ export default function cardsList (){
           id: 5,
           title: "Batman #56",
           description: "The Dark Knight's looking to drop both the hammer and sickle on the KGBeast. The Russian super-assassin has gone too far, and Batman will stop at nothing to hunt him down. But is the Dark Knight willing to step into the darkness himself to find justice?",
-          thumb: "https://imgs.search.brave.com/3vP5d3cOVOuC0f6Uhm7CkV_qFk5hGj5rE4jK5I6n7dI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC83OTYx/OTQzMTM5OTk4Lmpw/Zw",
+          thumb: "https://imgs.search.brave.com/DZMZoM5RBLZU3SBkKF2E-JoHgpTdhBClFABGeo4LRhY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFxMi1FR09xLUwu/anBn",
           price: "$3.99",
           series: "Batman",
           sale_date: "2018-10-03",
@@ -157,10 +157,11 @@ export default function cardsList (){
         },
       ];
       
-    return (
-        <section id="cards">
-            <h2>LISTA CARDS</h2>
-            {comics.map(card => <singleCard key={card.id} />)}
-        </section>
+      return (
+        <div className="cards-container">
+            {comics.map((comic) => (
+                <SingleCard key={comic.id} title={comic.title} thumb={comic.thumb} />
+            ))}
+        </div>
     );
 }

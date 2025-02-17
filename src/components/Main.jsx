@@ -10,8 +10,12 @@ export default function Main (){
     return (
         <main>
             <div className="container-black">
-                <CardsList />
-            </div>
+                
+            </div> 
+            
+             <div className="cards-container">
+                    <CardsList />
+                </div>         
 
             <div className="container-blue">
                 <a href="#"><img src={comics} alt="comics" />
