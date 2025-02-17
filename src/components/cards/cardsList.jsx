@@ -1,4 +1,4 @@
-import CardsList from './cards/cardsList.jsx'
+import singleCard from './singleCard.jsx'
 
 export default function cardsList (){
 
@@ -160,7 +160,7 @@ export default function cardsList (){
     return (
         <section id="cards">
             <h2>LISTA CARDS</h2>
-            {comics.map(card => <h4 key={card.id}>{card.title}</h4>)}
+            {comics.map(card => <singleCard key={card.id} />)}
         </section>
     );
 }
